@@ -19,7 +19,6 @@
         <ImageView
             android:id="@+id/redLight"
             style="@style/myImageView"
-            android:contentDescription="@null"
             android:layout_marginBottom="20dp"
             app:layout_constraintBottom_toTopOf="@id/orangeLight"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
@@ -30,7 +29,6 @@
         <ImageView
             android:id="@+id/orangeLight"
             style="@style/myImageView"
-            android:contentDescription="@null"
             android:layout_marginBottom="20dp"
             app:layout_constraintBottom_toTopOf="@id/greenLight"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
@@ -41,7 +39,6 @@
         <ImageView
             android:id="@+id/greenLight"
             style="@style/myImageView"
-            android:contentDescription="@null"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -67,7 +64,6 @@
             style="@style/myImageButton"
             android:src="@drawable/ic_stop"
             app:backgroundTint="@color/grey"
-            android:contentDescription="@null"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/pauseButton"
             app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +75,6 @@
             style="@style/myImageButton"
             android:src="@drawable/ic_pause"
             app:backgroundTint="@color/grey"
-            android:contentDescription="@null"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/playButton"
             app:layout_constraintStart_toEndOf="@id/stopButton"
@@ -89,7 +84,6 @@
         <ImageButton
             android:id="@+id/playButton"
             style="@style/myImageButton"
-            android:contentDescription="@null"
             android:src="@drawable/ic_play"
             app:backgroundTint="@color/grey"
             app:layout_constraintBottom_toBottomOf="parent"
