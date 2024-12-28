@@ -15,11 +15,20 @@
     </style>
 
     <style name="myImageView">
-        <item name="android:layout_width">72dp</item>
-        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
         <item name="android:src">@drawable/ic_circle</item>
         <item name="android:tint">@color/grey</item>
     </style>
+
+    <style name="myImageCadreView">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">@drawable/circle_background</item>
+    </style>
+
 
     <style name="myImageButton">
         <item name="android:layout_width">52dp</item>
